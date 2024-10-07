@@ -1,0 +1,40 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengatur tinggi penuh viewport */
+    background-color: #282c34; /* Warna latar belakang */
+}
+
+.login-container h2 {
+    color: white; /* Warna teks */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Jarak antara elemen form */
+}
+
+.login-container input {
+    padding: 10px; /* Ruang di dalam input */
+    width: 200px; /* Lebar input */
+    border: 1px solid #ccc; /* Warna border input */
+    border-radius: 5px; /* Membulatkan sudut input */
+}
+
+.login-container button {
+    padding: 10px; /* Ruang di dalam tombol */
+    width: 100px; /* Lebar tombol */
+    background-color: #356daa; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Membulatkan sudut tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+}
+
+.login-container button:hover {
+    background-color: #2a4d84; /* Warna tombol saat hover */
+}

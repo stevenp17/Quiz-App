@@ -1,0 +1,43 @@
+.quiz-container {
+    padding: 20px;
+    background-color: #282c34;
+    margin: 50px auto;
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+  .quiz-container p {
+    color: white; /* Mengubah warna font menjadi putih */
+    font-size: 18px; /* (Opsional) Atur ukuran font jika perlu */
+}
+
+  .quiz-container h2 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .timer {
+    font-size: 18px;
+    color: rgb(204, 204, 204);
+  }
+  
+  .question {
+    margin: 20px 0;
+    color: white;
+  }
+  
+  .answers button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .answers button:hover {
+    background-color: #0056b3;
+  }
+  

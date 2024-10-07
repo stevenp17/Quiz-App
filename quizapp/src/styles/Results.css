@@ -1,0 +1,36 @@
+/* Results.css */
+.results-container {
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 20px; /* Menambahkan padding untuk ruang di dalam kontainer */
+    background-color: #282c34; /* Warna latar belakang untuk kontainer */
+    border-radius: 10px; /* Membulatkan sudut kontainer */
+    max-width: 400px; /* Mengatur lebar maksimum untuk kontainer */
+    margin-left: auto; /* Memusatkan secara horizontal */
+    margin-right: auto; /* Memusatkan secara horizontal */
+}
+
+.results-container h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.results-container p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.results-container button {
+    padding: 10px 20px;
+    background-color: #465c88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results-container button:hover {
+    background-color: #0056b3;
+}

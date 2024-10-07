@@ -1,0 +1,10 @@
+/* App.css */
+body {
+  background-color: #282c34; /* Ganti dengan warna yang diinginkan */
+  margin: 0; /* Menghapus margin default */
+  font-family: Arial, sans-serif; /* Font default */
+}
+
+#root {
+  min-height: 100vh; /* Memastikan root memiliki tinggi penuh */
+}

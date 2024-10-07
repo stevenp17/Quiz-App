@@ -1,0 +1,41 @@
+.question-container {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #282c34;
+    border-radius: 8px;
+    background-color: #282c34;
+  }
+
+  
+  .question-container h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option-button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #465c88; /* Hijau */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #394b6f; /* Warna hijau lebih gelap saat hover */
+  }
+  
+  .option-button:active {
+    background-color: #465c88; /* Warna hijau lebih gelap saat diklik */
+  }
+  
+  
